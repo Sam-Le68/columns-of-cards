@@ -45,21 +45,37 @@ div {
   font-size: 1rem;
 }
 
+.big {
+  display: flex;
+}
+
 .quest {
   background-color: #e2e2e2;
+  display: flex;
+  flex-direction: column;
 }
 
 .dino {
   background-color: #ccc;
+  display: flex;
+  flex-direction: column;
 }
 
 .dragon {
   background-color: #aaa;
+  display: flex;
+  flex-direction: column;
 }
 
 .ships {
   background-color: #999;
   border-right: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.conteint {
+  flex-grow: 1;
 }
 
 .btn {
