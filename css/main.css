@@ -25,7 +25,8 @@ main {
 }
 
 img {
-  width: 100px;
+  width: 100%;
+  max-width: 100px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -50,24 +51,28 @@ div {
 }
 
 .quest {
+  width: 25%;
   background-color: #e2e2e2;
   display: flex;
   flex-direction: column;
 }
 
 .dino {
+  width: 25%;
   background-color: #ccc;
   display: flex;
   flex-direction: column;
 }
 
 .dragon {
+  width: 25%;
   background-color: #aaa;
   display: flex;
   flex-direction: column;
 }
 
 .ships {
+  width: 25%;
   background-color: #999;
   border-right: 1px solid black;
   display: flex;
@@ -93,4 +98,19 @@ a {
   border-radius: 5px;
   text-decoration: none;
   padding: .75rem;
+}
+
+.btn {
+  border: 3px solid #fff;
+  display: inline-block;
+  font-size: 1.125rem;
+  text-decoration: none;
+  padding: .4em .75em .3em;
+  border-radius: 10px;
+  background-color: #333;
+  color: white;
+}
+
+.btn-small {
+  font-size: .875rem;
 }
