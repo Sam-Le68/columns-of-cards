@@ -18,6 +18,7 @@ h2 {
   display: block;
   text-align: center;
   font-size: 2rem;
+  margin: .5rem 0;
 }
 
 main {
@@ -48,6 +49,7 @@ div {
 
 .big {
   display: flex;
+  padding-top: 0;
 }
 
 .quest {
@@ -83,16 +85,6 @@ div {
   flex-grow: 1;
 }
 
-.btn {
-  background-color: #333;
-  color: white;
-}
-
-.btn:hover {
-  background-color: black;
-  color: white;
-}
-
 a {
   display: block;
   border-radius: 5px;
@@ -113,4 +105,9 @@ a {
 
 .btn-small {
   font-size: .875rem;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
 }
